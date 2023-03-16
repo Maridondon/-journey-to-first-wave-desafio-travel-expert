@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 200px;
+    background-image: url(https://i.ibb.co/qWV0T4C/background-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: hsl(200, 7%, 9%);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+}
+
+span {
+    color: hsl(333, 71%, 51%);
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: hsl(200, 3%, 18%);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+}
+
+a {
+    color: hsl(200, 7%, 9%);
+    padding: 16px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a:hover,
+.button {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(333, 71%, 51%);
+    border-radius: 80px;
+}
